@@ -33,6 +33,8 @@ Dependencies/
 
 iOSInjectionProject/
 
+GoogleService-Info.plist
+
 #ConfigureFile(example:APIkey)
 Config.swift
 
