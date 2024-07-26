@@ -1,0 +1,55 @@
+/*
+  Localizable.strings
+  JecNavi
+
+  Created by yuki on 2024/06/24.
+  
+*/
+
+//QRCode
+"My QR Code" = "My QR Code";
+"You can scan the QR code to start chatting." = "You can scan the QR code to start chatting.";
+"Could not generate QR code." = "Could not generate QR code.";
+
+//Chat
+"Chat" = "Chat";
+"Message Input" = "Message Input";
+
+//News
+"Load More" = "Load More";
+"News" = "News";
+"Important" = "Important";
+
+//Home
+"Tap here for official website" = "Tap here for official website";
+"Student Portal Site" = "Student Portal Site";
+"Login" = "Login";
+"Student Counter" = "Student Counter";
+"International Student Counter" = "International Student Counter";
+"License Center" = "License Center";
+"School Infirmary" = "School Infirmary";
+"Sign Out" = "Sign Out";
+"Sign In" = "Sign In";
+"Are you sure you want to sign out?" = "Are you sure you want to sign out?";
+"Cancel" = "Cancel";
+
+
+//Map
+"TravelTime" = "TravelTime";
+"Do you want to exit route guidance?" = "Do you want to exit route guidance?";
+"end" = "end";
+"GO" = "GO";
+
+
+
+//Add
+"Campus Life Guide" = "Campus Life Guide";
+"Yearly Schedule" = "Yearly Schedule";
+"Sakura Navi" = "Sakura Navi";
+"Are you sure you want to cancel?" = "Are you sure you want to cancel?";
+"School Song" = "School Song";
+"Please sign in School Google Account to use the chat feature." = "Please sign in School Google Account to use the chat feature.";
+"Search" = "Search";
+"PDF file is not available." = "PDF file is not available.";
+"Others" = "Others";
+"Contact" = "Contact";

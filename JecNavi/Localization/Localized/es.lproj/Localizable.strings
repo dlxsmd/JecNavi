@@ -1,0 +1,40 @@
+/*
+Localizable.strings
+JecNavi
+
+Created by yuki on 2024/06/24.
+
+*/
+
+//QRCode
+"My QR Code" = "Mi código QR";
+"You can scan the QR code to start chatting." = "Puedes escanear el código QR para comenzar a chatear.";
+"Could not generate QR code." = "No se pudo generar el código QR.";
+
+//Chat
+"Chat" = "Charlar";
+"Message Input" = "Entrada de mensaje";
+
+//News
+"Load More" = "Carga más";
+"News" = "Noticias";
+"Important" = "Importante";
+
+//Home
+"Tap here for official website" = "Toque aquí para acceder al sitio web oficial";
+"Student Portal Site" = "Sitio del portal del estudiante";
+"Login" = "Acceso";
+"Student Counter" = "Contador de estudiantes";
+"International Student Counter" = "Mostrador de estudiantes internacionales";
+"License Center" = "Centro de licencias";
+"School Infirmary" = "Enfermería escolar";
+"Sign Out" = "Desconectar";
+"Sign In" = "Iniciar sesión";
+"Are you sure you want to sign out?" = "¿Estás seguro de que deseas cerrar sesión?";
+"Cancel" = "Cancelar";
+
+//Map
+"TravelTime" = "Tiempo de viaje";
+"Do you want to exit route guidance?" = "¿Quiere salir de la guía de ruta?";
+"end" = "fin";
+"GO" = "IR";

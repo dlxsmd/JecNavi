@@ -1,0 +1,40 @@
+/*
+Localizable.strings
+JecNavi
+
+Created by yuki on 2024/06/24.
+
+*/
+
+//QRCode
+"My QR Code" = "내 QR 코드";
+"You can scan the QR code to start chatting." = "QR 코드를 스캔하여 채팅을 시작할 수 있습니다.";
+"Could not generate QR code." = "QR 코드를 생성할 수 없습니다.";
+
+//Chat
+"Chat" = "채팅";
+"Message Input" = "메시지 입력";
+
+//News
+"Load More" = "더 로드하기";
+"News" = "소식";
+"Important" = "중요한";
+
+//Home
+"Tap here for official website" = "공식 웹사이트를 보려면 여기를 누르세요.";
+"Student Portal Site" = "학생 포털 사이트";
+"Login" = "로그인";
+"Student Counter" = "학생 카운터";
+"International Student Counter" = "유학생 카운터";
+"License Center" = "라이센스 센터";
+"School Infirmary" = "학교 의무실";
+"Sign Out" = "로그아웃";
+"Sign In" = "로그인";
+"Are you sure you want to sign out?" = "정말로 로그아웃하시겠습니까?";
+"Cancel" = "취소";
+
+//Map
+"TravelTime" = "여행 시간";
+"Do you want to exit route guidance?" = "경로 안내를 종료하시겠습니까?";
+"end" = "끝";
+"GO" = "가다";

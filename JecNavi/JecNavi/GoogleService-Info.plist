@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>883795584535-k2actkj2toej7j92ajp427ggv2l89nue.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.883795584535-k2actkj2toej7j92ajp427ggv2l89nue</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB785HRi1d_72pZlmO_ckpC_N7vE8ykm6A</string>
+	<key>GCM_SENDER_ID</key>
+	<string>883795584535</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>jp.ac.jec.cm0102.JecNavi</string>
+	<key>PROJECT_ID</key>
+	<string>jecnavi</string>
+	<key>STORAGE_BUCKET</key>
+	<string>jecnavi.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:883795584535:ios:bc8842a81de28e7b311e52</string>
+</dict>
+</plist>

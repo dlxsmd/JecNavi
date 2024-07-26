@@ -1,0 +1,40 @@
+/*
+Localizable.strings
+JecNavi
+
+Created by yuki on 2024/06/24.
+
+*/
+
+//QRCode
+"My QR Code" = "我的二维码";
+"You can scan the QR code to start chatting." = "您可以扫描二维码开始聊天。";
+"Could not generate QR code." = "无法生成二维码。";
+
+//Chat
+"Chat" = "聊天";
+"Message Input" = "信息输入";
+
+//News
+"Load More" = "装载更多";
+"News" = "消息";
+"Important" = "重要的";
+
+//Home
+"Tap here for official website" = "点击此处查看官方网站";
+"Student Portal Site" = "学生门户网站";
+"Login" = "登录";
+"Student Counter" = "学生柜台";
+"International Student Counter" = "留学生柜台";
+"License Center" = "授权中心";
+"School Infirmary" = "学校医务室";
+"Sign Out" = "登出";
+"Sign In" = "登入";
+"Are you sure you want to sign out?" = "您确定要退出吗？";
+"Cancel" = "取消";
+
+//Map
+"TravelTime" = "旅行时间";
+"Do you want to exit route guidance?" = "您想退出路线引导吗？";
+"end" = "结尾";
+"GO" = "去";

@@ -1,0 +1,43 @@
+/*
+Localizable.strings
+JecNavi
+
+Created by yuki on 2024/06/24.
+
+*/
+
+//QRCode
+"My QR Code" = "マイQRコード";
+"You can scan the QR code to start chatting." = "QRコードをスキャンしてチャットを開始できます。";
+"Could not generate QR code." = "QRコードを生成できませんでした。";
+
+//Chat
+"Chat" = "チャット";
+"Message Input" = "メッセージを入力";
+
+//News
+"Load More" = "もっと読み込む";
+"News" = "ニュース";
+"Important" = "重要";
+
+//Home
+"Tap here for official website" = "公式サイトはこちらをタップ";
+"Student Portal Site" = "学生ポータルサイト";
+"Login" = "ログイン";
+"Student Counter" = "学生窓口";
+"International Student Counter" = "留学生窓口";
+"License Center" = "ライセンスセンター";
+"School Infirmary" = "保健室";
+"Sign Out" = "サインアウト";
+"Sign In" = "サインイン";
+"Are you sure you want to sign out?" = "サインアウトしてもよろしいですか?";
+"Cancel" = "キャンセル";
+
+//Map
+"TravelTime" = "所要時間";
+"Do you want to exit route guidance?" = "ルート案内を終了しますか?";
+"end" = "終了";
+"GO" = "開始";
+
+"Sakura Navi" = "さくら Navi";
+   
