@@ -122,7 +122,8 @@ struct PortfolioRequestView: View {
                                     creatorClass: creatorClass,
                                     description: description,
                                     uiImages: urls,
-                                    isPublished: false
+                                    isPublished: false,
+                                    like: 0
                                 )
                                 portfolioModel.addRequest(request: requestData)
                                 dm()

@@ -95,9 +95,11 @@
 		B608B5EF2C4F370500A7E5C4 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B608B5EE2C4F370500A7E5C4 /* PortfolioView.swift */; };
 		B608B5F12C4F387300A7E5C4 /* PortfolioRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B608B5F02C4F387300A7E5C4 /* PortfolioRequestView.swift */; };
 		B608B5F52C4F7D8B00A7E5C4 /* FunctionRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B608B5F42C4F7D8B00A7E5C4 /* FunctionRequestView.swift */; };
-		B63DFF562C5795EA00AC30AB /* PortFolioRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63DFF552C5795EA00AC30AB /* PortFolioRequestModel.swift */; };
+		B63DFF562C5795EA00AC30AB /* PortfolioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63DFF552C5795EA00AC30AB /* PortfolioModel.swift */; };
 		B63DFF582C57A3C200AC30AB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B63DFF572C57A3C200AC30AB /* FirebaseStorage */; };
 		B63DFF5A2C57B8BF00AC30AB /* PortfolioDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63DFF592C57B8BF00AC30AB /* PortfolioDetailView.swift */; };
+		B63DFF5C2C58BB7500AC30AB /* LiketapModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63DFF5B2C58BB7500AC30AB /* LiketapModifier.swift */; };
+		B63DFF5F2C58C00900AC30AB /* PhotoZoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63DFF5E2C58C00900AC30AB /* PhotoZoomView.swift */; };
 		B6F0B7EF2C5329470052087B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F0B7EE2C5329470052087B /* Config.swift */; };
 /* End PBXBuildFile section */
 
@@ -182,8 +184,10 @@
 		B608B5EE2C4F370500A7E5C4 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		B608B5F02C4F387300A7E5C4 /* PortfolioRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioRequestView.swift; sourceTree = "<group>"; };
 		B608B5F42C4F7D8B00A7E5C4 /* FunctionRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionRequestView.swift; sourceTree = "<group>"; };
-		B63DFF552C5795EA00AC30AB /* PortFolioRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortFolioRequestModel.swift; sourceTree = "<group>"; };
+		B63DFF552C5795EA00AC30AB /* PortfolioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioModel.swift; sourceTree = "<group>"; };
 		B63DFF592C57B8BF00AC30AB /* PortfolioDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDetailView.swift; sourceTree = "<group>"; };
+		B63DFF5B2C58BB7500AC30AB /* LiketapModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiketapModifier.swift; sourceTree = "<group>"; };
+		B63DFF5E2C58C00900AC30AB /* PhotoZoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoZoomView.swift; sourceTree = "<group>"; };
 		B6F0B7EE2C5329470052087B /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -350,9 +354,6 @@
 				7F090C312C280B45006926D5 /* SettingView.swift */,
 				7FD56AC32C311748008E8BA3 /* PrivacyPolicyView.swift */,
 				7FD56AC12C3116D3008E8BA3 /* TermsOfServiceView.swift */,
-				B608B5EE2C4F370500A7E5C4 /* PortfolioView.swift */,
-				B63DFF592C57B8BF00AC30AB /* PortfolioDetailView.swift */,
-				B608B5F02C4F387300A7E5C4 /* PortfolioRequestView.swift */,
 				B608B5F42C4F7D8B00A7E5C4 /* FunctionRequestView.swift */,
 			);
 			path = Home;
@@ -402,7 +403,7 @@
 				7F090C292C256974006926D5 /* Location */,
 				7FAE1BAA2C2E39ED00402E0E /* PDFSearchManager.swift */,
 				B6011C1E2C51100500B69961 /* PortfolioDataModel.swift */,
-				B63DFF552C5795EA00AC30AB /* PortFolioRequestModel.swift */,
+				B63DFF552C5795EA00AC30AB /* PortfolioModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -420,6 +421,7 @@
 		7F987B6B2C1AFF3A00913C18 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				B63DFF5D2C58BF3000AC30AB /* Portfolio */,
 				7FD642E52C34D18100771B6B /* SplashScreenView.swift */,
 				B63DFF182C53635800AC30AB /* Common */,
 				7FD642A12C323CCB00771B6B /* Intro */,
@@ -500,6 +502,7 @@
 			children = (
 				7FD642EF2C367CC700771B6B /* SearchBar.swift */,
 				7F090C2F2C280B37006926D5 /* HeaderView.swift */,
+				B63DFF5E2C58C00900AC30AB /* PhotoZoomView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -510,8 +513,19 @@
 				7FBE1E282C2BD5760009C561 /* DateFormatter_ex.swift */,
 				7FD642ED2C365E7500771B6B /* EdgeSwipe.swift */,
 				7F987B6C2C1AFFE200913C18 /* TabBar_ex.swift */,
+				B63DFF5B2C58BB7500AC30AB /* LiketapModifier.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		B63DFF5D2C58BF3000AC30AB /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				B608B5EE2C4F370500A7E5C4 /* PortfolioView.swift */,
+				B608B5F02C4F387300A7E5C4 /* PortfolioRequestView.swift */,
+				B63DFF592C57B8BF00AC30AB /* PortfolioDetailView.swift */,
+			);
+			path = Portfolio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -625,8 +639,10 @@
 				7FD642EC2C36326E00771B6B /* IntroSigninView.swift in Sources */,
 				7F7353C22C216BB3001AC836 /* ChatRowView.swift in Sources */,
 				7F7353D02C21D980001AC836 /* ChatRoomsDataModel.swift in Sources */,
+				B63DFF5F2C58C00900AC30AB /* PhotoZoomView.swift in Sources */,
 				7FAE1BA92C2D790600402E0E /* ScheduleView.swift in Sources */,
 				7F090C382C281A36006926D5 /* ImportantListView.swift in Sources */,
+				B63DFF5C2C58BB7500AC30AB /* LiketapModifier.swift in Sources */,
 				7FD642EE2C365E7600771B6B /* EdgeSwipe.swift in Sources */,
 				B608B5F52C4F7D8B00A7E5C4 /* FunctionRequestView.swift in Sources */,
 				7FD642E82C35163600771B6B /* Intro4View.swift in Sources */,
@@ -649,7 +665,7 @@
 				B608B5EF2C4F370500A7E5C4 /* PortfolioView.swift in Sources */,
 				B63DFF5A2C57B8BF00AC30AB /* PortfolioDetailView.swift in Sources */,
 				7FF4304C2C2B4C5200DF8DB2 /* timeLineModel.swift in Sources */,
-				B63DFF562C5795EA00AC30AB /* PortFolioRequestModel.swift in Sources */,
+				B63DFF562C5795EA00AC30AB /* PortfolioModel.swift in Sources */,
 				7F194AD12C1D911B00248E72 /* AppMainView.swift in Sources */,
 				7F7353722C1F8514001AC836 /* AccountView.swift in Sources */,
 				B6011C1D2C50A27D00B69961 /* WeatherDataModel.swift in Sources */,

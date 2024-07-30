@@ -20,16 +20,23 @@ struct PortfolioView: View {
                         if portfolio.isPublished{
                             NavigationLink(destination: PortfolioDetailView(portfolio: portfolio)){
                                 VStack(alignment: .leading){
-                                    Text(portfolio.productName)
-                                        .font(.title2)
-                                        .fontWeight(.bold)
-                                    Text(portfolio.creatorName)
-                                        .font(.subheadline)
-                                    Text(portfolio.creatorClass)
-                                        .font(.subheadline)
+                                    HStack{
+                                        Text(portfolio.productName)
+                                            .font(.title3)
+                                            .fontWeight(.bold)
+                                        Spacer()
+                                        VStack(alignment:.trailing){
+                                            Text(portfolio.creatorName)
+                                                .font(.subheadline)
+                                            Text(portfolio.creatorClass)
+                                                .font(.caption)
+                                        }
+                                    }
+                                    
                                     Text(portfolio.description)
                                         .font(.subheadline)
                                 }.padding()
+                                    .foregroundColor(.black)
                             }
                         }
                     }
@@ -42,6 +49,6 @@ struct PortfolioView: View {
     }
 }
 
-#Preview {
+#Preview{
     PortfolioView()
 }

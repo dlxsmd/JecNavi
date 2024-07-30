@@ -17,5 +17,6 @@ struct PortfolioDataModel: Identifiable, Codable, Equatable{
  let description: String
  let uiImages: [String]
  var isPublished: Bool
+ var like: Int
 }
  

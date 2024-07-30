@@ -34,6 +34,12 @@ class PortfolioModel: ObservableObject{
             }
     }
     
+    func sendlike(portfolio: PortfolioDataModel){
+        let like = portfolio.like
+        let newLike = like + 1
+        db.collection("Portfolio").document(portfolio.id!).updateData(["like": newLike])
+    }
+    
     func loadImages(urls: [String], completion: @escaping ([UIImage]) -> Void) {
         let storage = Storage.storage()
         var images: [UIImage] = []
