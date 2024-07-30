@@ -84,7 +84,8 @@ struct HomeView: View {
                                 }
                                 
                                 NavigationLink {
-                                    PortfolioRequestView()
+//                                    PortfolioRequestView()
+                                    PortfolioView()
                                 } label: {
                                     HStack{
                                         VStack(alignment: .leading){

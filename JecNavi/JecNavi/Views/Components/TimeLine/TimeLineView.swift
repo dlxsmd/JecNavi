@@ -53,6 +53,9 @@ struct TimeLineView: View {
                         }
                     }
                 }
+                .onAppear {
+                    model.fetchPosts()
+                }
                 if Authentication.isSignIn{
                     Button(action: {
                         isPostView.toggle()
@@ -80,9 +83,6 @@ struct TimeLineView: View {
             }
 
         }
-            .onAppear {
-                model.fetchPosts()
-            }
             .sheet(isPresented: $isPostView, content: {
                 PostView(isPostView:$isPostView ,addPost: { post in
                     model.addPost(post: post)

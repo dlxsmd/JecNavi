@@ -91,10 +91,13 @@
 		7FF4304E2C2B4C5F00DF8DB2 /* timeLineDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4304D2C2B4C5F00DF8DB2 /* timeLineDataModel.swift */; };
 		7FF430502C2B55A300DF8DB2 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4304F2C2B55A300DF8DB2 /* PostView.swift */; };
 		B6011C1D2C50A27D00B69961 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6011C1C2C50A27D00B69961 /* WeatherDataModel.swift */; };
-		B6011C1F2C51100500B69961 /* PortfolioRequestDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6011C1E2C51100500B69961 /* PortfolioRequestDataModel.swift */; };
+		B6011C1F2C51100500B69961 /* PortfolioDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6011C1E2C51100500B69961 /* PortfolioDataModel.swift */; };
 		B608B5EF2C4F370500A7E5C4 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B608B5EE2C4F370500A7E5C4 /* PortfolioView.swift */; };
 		B608B5F12C4F387300A7E5C4 /* PortfolioRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B608B5F02C4F387300A7E5C4 /* PortfolioRequestView.swift */; };
 		B608B5F52C4F7D8B00A7E5C4 /* FunctionRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B608B5F42C4F7D8B00A7E5C4 /* FunctionRequestView.swift */; };
+		B63DFF562C5795EA00AC30AB /* PortFolioRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63DFF552C5795EA00AC30AB /* PortFolioRequestModel.swift */; };
+		B63DFF582C57A3C200AC30AB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B63DFF572C57A3C200AC30AB /* FirebaseStorage */; };
+		B63DFF5A2C57B8BF00AC30AB /* PortfolioDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63DFF592C57B8BF00AC30AB /* PortfolioDetailView.swift */; };
 		B6F0B7EF2C5329470052087B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F0B7EE2C5329470052087B /* Config.swift */; };
 /* End PBXBuildFile section */
 
@@ -175,10 +178,12 @@
 		7FF4304D2C2B4C5F00DF8DB2 /* timeLineDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeLineDataModel.swift; sourceTree = "<group>"; };
 		7FF4304F2C2B55A300DF8DB2 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		B6011C1C2C50A27D00B69961 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
-		B6011C1E2C51100500B69961 /* PortfolioRequestDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioRequestDataModel.swift; sourceTree = "<group>"; };
+		B6011C1E2C51100500B69961 /* PortfolioDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataModel.swift; sourceTree = "<group>"; };
 		B608B5EE2C4F370500A7E5C4 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		B608B5F02C4F387300A7E5C4 /* PortfolioRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioRequestView.swift; sourceTree = "<group>"; };
 		B608B5F42C4F7D8B00A7E5C4 /* FunctionRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionRequestView.swift; sourceTree = "<group>"; };
+		B63DFF552C5795EA00AC30AB /* PortFolioRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortFolioRequestModel.swift; sourceTree = "<group>"; };
+		B63DFF592C57B8BF00AC30AB /* PortfolioDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDetailView.swift; sourceTree = "<group>"; };
 		B6F0B7EE2C5329470052087B /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -195,6 +200,7 @@
 				7F7353DB2C22EA6B001AC836 /* CodeScanner in Frameworks */,
 				7F4F84C02C248260006C3E20 /* FirebaseAuthUI in Frameworks */,
 				7F221A7E2C24830500FB1A15 /* FirebaseAuth in Frameworks */,
+				B63DFF582C57A3C200AC30AB /* FirebaseStorage in Frameworks */,
 				7F221A802C24830500FB1A15 /* FirebaseFirestoreSwift in Frameworks */,
 				7F026AE42C48A51C0022D6F3 /* Zoomable in Frameworks */,
 			);
@@ -345,6 +351,7 @@
 				7FD56AC32C311748008E8BA3 /* PrivacyPolicyView.swift */,
 				7FD56AC12C3116D3008E8BA3 /* TermsOfServiceView.swift */,
 				B608B5EE2C4F370500A7E5C4 /* PortfolioView.swift */,
+				B63DFF592C57B8BF00AC30AB /* PortfolioDetailView.swift */,
 				B608B5F02C4F387300A7E5C4 /* PortfolioRequestView.swift */,
 				B608B5F42C4F7D8B00A7E5C4 /* FunctionRequestView.swift */,
 			);
@@ -394,7 +401,8 @@
 				7F090C2A2C25698E006926D5 /* Api */,
 				7F090C292C256974006926D5 /* Location */,
 				7FAE1BAA2C2E39ED00402E0E /* PDFSearchManager.swift */,
-				B6011C1E2C51100500B69961 /* PortfolioRequestDataModel.swift */,
+				B6011C1E2C51100500B69961 /* PortfolioDataModel.swift */,
+				B63DFF552C5795EA00AC30AB /* PortFolioRequestModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -533,6 +541,7 @@
 				7F221A7D2C24830500FB1A15 /* FirebaseAuth */,
 				7F221A7F2C24830500FB1A15 /* FirebaseFirestoreSwift */,
 				7F026AE32C48A51C0022D6F3 /* Zoomable */,
+				B63DFF572C57A3C200AC30AB /* FirebaseStorage */,
 			);
 			productName = JecNavi;
 			productReference = 7F5C867F2C18529C002EB78B /* JecNavi.app */;
@@ -610,7 +619,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F987B712C1B004300913C18 /* HomeView.swift in Sources */,
-				B6011C1F2C51100500B69961 /* PortfolioRequestDataModel.swift in Sources */,
+				B6011C1F2C51100500B69961 /* PortfolioDataModel.swift in Sources */,
 				7F026AE12C4898DA0022D6F3 /* MapDetailPhotoView.swift in Sources */,
 				7FD56AC42C311748008E8BA3 /* PrivacyPolicyView.swift in Sources */,
 				7FD642EC2C36326E00771B6B /* IntroSigninView.swift in Sources */,
@@ -638,7 +647,9 @@
 				7FBE1E292C2BD5760009C561 /* DateFormatter_ex.swift in Sources */,
 				7F7353B92C203155001AC836 /* AuthenticationManager.swift in Sources */,
 				B608B5EF2C4F370500A7E5C4 /* PortfolioView.swift in Sources */,
+				B63DFF5A2C57B8BF00AC30AB /* PortfolioDetailView.swift in Sources */,
 				7FF4304C2C2B4C5200DF8DB2 /* timeLineModel.swift in Sources */,
+				B63DFF562C5795EA00AC30AB /* PortFolioRequestModel.swift in Sources */,
 				7F194AD12C1D911B00248E72 /* AppMainView.swift in Sources */,
 				7F7353722C1F8514001AC836 /* AccountView.swift in Sources */,
 				B6011C1D2C50A27D00B69961 /* WeatherDataModel.swift in Sources */,
@@ -1052,6 +1063,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7FB86E4D2C24774500A230F4 /* XCRemoteSwiftPackageReference "qrcode" */;
 			productName = QRCode;
+		};
+		B63DFF572C57A3C200AC30AB /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F221A7C2C24830500FB1A15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
